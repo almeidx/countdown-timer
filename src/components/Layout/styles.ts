@@ -37,3 +37,16 @@ export const Countdown = styled.div`
     font-size: 1.3rem;
   }
 `;
+
+export const DateInput = styled.input`
+  margin-top: 3rem;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  background: #2C2F33;
+  transition: all 200ms;
+
+  &:hover, &:focus {
+    font-size: 25px;
+  }
+`;
